@@ -1,0 +1,11 @@
+{
+    "editor.fontFamily": "'SF Mono'",
+    "editor.fontSize": 18,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Aura Dark",
+    "workbench.iconTheme": "moxer-icons",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "rgba(250, 240, 170, 0.5)",
+    "vim.highlightedyank.textColor": "black"
+}
