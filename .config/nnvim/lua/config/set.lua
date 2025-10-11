@@ -20,7 +20,7 @@ vim.o.scrolloff = 25 -- Keep cursor centered with padding around view
 -- =========================
 vim.o.mouse = "a" -- Enable mouse support
 vim.o.breakindent = true -- Enable indent-aware line wrapping
-vim.o.confirm = true -- Prompt to save before closing unsaved buffers
+vim.o.confirm = false -- Prompt to save before closing unsaved buffers
 
 -- =========================
 -- Search Behavior

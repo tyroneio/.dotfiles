@@ -18,5 +18,5 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
             spec = {
                 { import = "plugins" },
             },
-            checker = { enabled = true },
+            checker = { enabled = false },
         })
