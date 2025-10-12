@@ -88,3 +88,6 @@ setopt autocd
 setopt histignoredups sharehistory
 setopt interactivecomments
 setopt nobeep
+
+# opencode
+export PATH=/home/abz/.opencode/bin:$PATH
