@@ -74,7 +74,8 @@ alias la='eza -la --icons --group-directories-first --color=always'
 alias lt='eza --tree --level=2 --icons --group-directories-first'
 alias s='sesh connect $(sesh list | fzf)'
 alias open='xdg-open'
-alias nnvim='NVIM_APPNAME="nnvim" nvim'
+alias nvim='NVIM_APPNAME="nnvim" nvim'
+alias nnvim='NVIM_APPNAME="nvim" nvim'
 
 # ===============================
 # Starship prompt
