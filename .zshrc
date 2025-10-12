@@ -28,6 +28,7 @@ eval "$(fzf --zsh)"
 # Plugins via Zinit
 # ===============================
 autoload -Uz compinit && compinit
+zinit ice depth=1
 
 # Completion and FZF integration
 zinit light zsh-users/zsh-completions
@@ -42,7 +43,7 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 zinit light zdharma-continuum/fast-syntax-highlighting
 
 # Vi-mode (must be last)
-# zinit light jeffreytse/zsh-vi-mode
+zinit light jeffreytse/zsh-vi-mode
 
 # ===============================
 # Keybindings for autosuggestions
@@ -76,6 +77,8 @@ alias s='sesh connect $(sesh list | fzf)'
 alias open='xdg-open'
 alias nvim='NVIM_APPNAME="nnvim" nvim'
 alias nnvim='NVIM_APPNAME="nvim" nvim'
+alias t="tmux"
+alias ta="tmux a"
 
 # ===============================
 # Starship prompt
