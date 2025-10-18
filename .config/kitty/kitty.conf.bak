@@ -1,0 +1,15 @@
+# Fonts
+font_family GeistMono Nerd Font
+font_size 16
+
+# QOL
+confirm_os_window_close 0
+
+map ctrl+c copy_or_interrupt
+map ctrl+v paste_from_clipboard
+
+
+# BEGIN_KITTY_THEME
+# Rosé Pine Dawn
+include current-theme.conf
+# END_KITTY_THEME
