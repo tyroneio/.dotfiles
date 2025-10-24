@@ -75,10 +75,9 @@ alias la='eza -la --icons --group-directories-first --color=always'
 alias lt='eza --tree --level=2 --icons --group-directories-first'
 alias s='sesh connect $(sesh list | fzf)'
 alias open='xdg-open'
-alias nvim='NVIM_APPNAME="nnvim" nvim'
-alias nnvim='NVIM_APPNAME="nvim" nvim'
 alias t="tmux"
 alias ta="tmux a"
+alias n='NVIM_APPNAME="nvimV2" nvim'
 
 # ===============================
 # Starship prompt
